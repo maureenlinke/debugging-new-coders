@@ -2,33 +2,41 @@ $(function () {
     $('#container').highcharts({
         chart: {
             type: 'bar'
-        },
+        }, 
         title: {
-            text: 'Monthly Average Rainfall'
+            text: 'Top ten schools with highest percentage of obese, overweight children'
         },
-        subtitle: {
-            text: 'Source: WorldClimate.com'
+         credits: {
+            enabled: false
         },
+       
         xAxis: {
-            categories: [
-               'Vesta Central School District',
-                'Arkport Central School',
-                'Mamaroneck Union Free School',
-               	'Pleasantville',
-               	'Scarsdale',
-               	'PT Jefferson'
-            ]
+            categories: ['Elizabethtown-Lewis Central School',
+                        'Greenport Union Free School',
+                        'Charlotte Valley Central School District',
+                        'Fabius-Pompey Central School',
+                        'Hancock Central School District',
+                        'Brentwood Union Free School',
+                        'Salmon River Central School',
+                        'Pulaski Central School',
+                        'Brasher Falls Cent Sch Dist',
+                        'Ellenville Central School']
         },
         yAxis: {
             min: 0,
             title: {
-                text: 'Rainfall (mm)'
+                text: ''
+            },
+             labels: {
+                formatter: function () {
+                    return this.value + '%';
+                }
             }
         },
         tooltip: {
-            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            headerFormat: '<span style="font-size:12px">{point.key}</span><table>',
             pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                '<td style="padding:0"><b>{point.y:.f} %</b></td></tr>',
             footerFormat: '</table>',
             shared: true,
             useHTML: true
@@ -40,12 +48,13 @@ $(function () {
             }
         },
         series: [{
-            name: 'Number overweight',
-            data: [45,6,65,25,41]
+            name: 'Percent overweight',
+
+            data: [33,16,24,25,11,21,21,28,23,27]
 
         }, {
-            name: 'Number obese',
-            data: [7,5,38,14,22]
+            name: 'Percent obese',
+            data: [35,46,38,31,43,32,31,25,29,23]
 
         }]
     });
