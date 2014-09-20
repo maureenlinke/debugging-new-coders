@@ -1,0 +1,544 @@
+var geojson = {
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.5966, 44.2135]
+        },
+        "properties": {
+            "school": "Elizabethtown-Lewis Central School",
+            "pct_over_obese": "67"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-72.3697, 41.1004]
+        },
+        "properties": {
+            "school": "Greenport Union Free School",
+            "pct_over_obese": "63"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.848, 42.4702]
+        },
+        "properties": {
+            "school": "Charlotte Valley Central School District",
+            "pct_over_obese": "62"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.9853, 42.8303]
+        },
+        "properties": {
+            "school": "Fabius-Pompey Central School",
+            "pct_over_obese": "56"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.2785, 41.955]
+        },
+        "properties": {
+            "school": "Hancock Central School District",
+            "pct_over_obese": "55"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.2557, 40.777]
+        },
+        "properties": {
+            "school": "Brentwood Union Free School",
+            "pct_over_obese": "53"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.5185, 44.961]
+        },
+        "properties": {
+            "school": "Salmon River Central School",
+            "pct_over_obese": "53"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.1359, 43.5706]
+        },
+        "properties": {
+            "school": "Pulaski Central School",
+            "pct_over_obese": "53"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.7647, 44.8016]
+        },
+        "properties": {
+            "school": "Brasher Falls Cent Sch Dist",
+            "pct_over_obese": "52"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.3911, 41.717]
+        },
+        "properties": {
+            "school": "Ellenville Central School",
+            "pct_over_obese": "51"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.6208, 40.7055]
+        },
+        "properties": {
+            "school": "Hempstead Union Free School",
+            "pct_over_obese": "51"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.5842, 40.7048]
+        },
+        "properties": {
+            "school": "Uniondale Union Free School",
+            "pct_over_obese": "50"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.0942, 43.0458]
+        },
+        "properties": {
+            "school": "Newark Central School",
+            "pct_over_obese": "50"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.3007, 43.2391]
+        },
+        "properties": {
+            "school": "Phoenix Central School",
+            "pct_over_obese": "49"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.6192, 43.0403]
+        },
+        "properties": {
+            "school": "Port Byron Central School District",
+            "pct_over_obese": "49"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.0676, 43.2273]
+        },
+        "properties": {
+            "school": "Sodus Central School",
+            "pct_over_obese": "49"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.891, 42.7587]
+        },
+        "properties": {
+            "school": "De Ruyter Central School",
+            "pct_over_obese": "49"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.1637, 42.3429]
+        },
+        "properties": {
+            "school": "Franklin Central School District",
+            "pct_over_obese": "48"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.2036, 44.364]
+        },
+        "properties": {
+            "school": "Edwards-Knox Central School",
+            "pct_over_obese": "48"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.94, 41.7781]
+        },
+        "properties": {
+            "school": "Sullivan West Csd",
+            "pct_over_obese": "48"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.5793, 43.3179]
+        },
+        "properties": {
+            "school": "Hannibal Central School",
+            "pct_over_obese": "48"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.4088, 44.6217]
+        },
+        "properties": {
+            "school": "Heuvelton Central School",
+            "pct_over_obese": "48"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.1551, 44.7878]
+        },
+        "properties": {
+            "school": "Madrid Waddington Central School",
+            "pct_over_obese": "47"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.7224, 44.7135]
+        },
+        "properties": {
+            "school": "Saranac Central School",
+            "pct_over_obese": "47"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.5893, 40.6644]
+        },
+        "properties": {
+            "school": "Freeport Union Free School",
+            "pct_over_obese": "47"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.898, 44.9218]
+        },
+        "properties": {
+            "school": "Massena Central School",
+            "pct_over_obese": "47"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.2053, 40.7939]
+        },
+        "properties": {
+            "school": "Central Islip U F S",
+            "pct_over_obese": "47"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.242045, 44.689468]
+        },
+        "properties": {
+            "school": "St. Lawrence",
+            "pct_over_obese": "47"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.4184, 40.6773]
+        },
+        "properties": {
+            "school": "Amityville Union Free School",
+            "pct_over_obese": "47"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.037, 42.65]
+        },
+        "properties": {
+            "school": "Lake Shore Central School",
+            "pct_over_obese": "46"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.8677, 43.0878]
+        },
+        "properties": {
+            "school": "Clyde-Savannah Central School",
+            "pct_over_obese": "46"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.6001, 42.9762]
+        },
+        "properties": {
+            "school": "Stockbridge Valley Central School",
+            "pct_over_obese": "46"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.616, 43.154]
+        },
+        "properties": {
+            "school": "Rochester City Schools",
+            "pct_over_obese": "46"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.966, 44.1944]
+        },
+        "properties": {
+            "school": "La Fargeville Central School",
+            "pct_over_obese": "46"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.898971, 44.019295]
+        },
+        "properties": {
+            "school": "Jefferson",
+            "pct_over_obese": "46"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.5842, 40.7685]
+        },
+        "properties": {
+            "school": "Westbury Union Free Schools",
+            "pct_over_obese": "46"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.5163, 42.5268]
+        },
+        "properties": {
+            "school": "Norwich City School District",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.82753, 42.833627]
+        },
+        "properties": {
+            "school": "Seneca",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.5963, 42.3602]
+        },
+        "properties": {
+            "school": "Newfield Central School",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.4212, 42.7067]
+        },
+        "properties": {
+            "school": "Moravia Central School District",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.6888, 41.0042]
+        },
+        "properties": {
+            "school": "Port Chester-Rye U F S",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.9119, 44.3354]
+        },
+        "properties": {
+            "school": "Alexandria Central Elem. & High Scho",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.872032, 42.38593]
+        },
+        "properties": {
+            "school": "Schuyler",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.0531, 43.442]
+        },
+        "properties": {
+            "school": "Altmar Parish-Williamstown Central Sch Dist.",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.3417, 42.4779]
+        },
+        "properties": {
+            "school": "Dunkirk City School District",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.9885, 43.0866]
+        },
+        "properties": {
+            "school": "Niagara Falls City Schools",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.253, 42.5143]
+        },
+        "properties": {
+            "school": "Prattsburg Central School",
+            "pct_over_obese": "45"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.8394, 43.3236]
+        },
+        "properties": {
+            "school": "Hadley Luzerne Central School",
+            "pct_over_obese": "44"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.5869, 43.2737]
+        },
+        "properties": {
+            "school": "Fort Edward Union Free School",
+            "pct_over_obese": "44"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.7165, 42.7321]
+        },
+        "properties": {
+            "school": "Watervliet City School District",
+            "pct_over_obese": "44"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.9481, 42.4638]
+        },
+        "properties": {
+            "school": "Gowanda Central School District",
+            "pct_over_obese": "44"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.7143, 43.8454]
+        },
+        "properties": {
+            "school": "Copenhagen Central School",
+            "pct_over_obese": "44"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.2963, 44.1025]
+        },
+        "properties": {
+            "school": "Harrisville Central School",
+            "pct_over_obese": "44"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.997944, 42.242972]
+        },
+        "properties": {
+            "school": "Delaware",
+            "pct_over_obese": "44"
+        }
+    }]
+}
