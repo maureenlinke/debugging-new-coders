@@ -1,3 +1,21 @@
+$legend =     $('#map-legend');
+
+function showLegend() {
+
+    var cols =   [ "#409e94","#7e7e7e" ];
+    var txt =    [
+    '40% or more',
+    '39% or fewer' ];
+    var htm = '<h5>Pct. of obese children</h5><ul>';
+    var cls = 'dots';
+    for ( var i = 0; i < cols.length; i++ ) {
+        htm += '<li id="leg' + i + '" class="legends"><span class="' + cls + '" style="background:' + cols[i] + '"></span>' + txt[i] + '</li>';
+    }
+    htm += '</ul>';
+    $legend.html(htm);
+
+};
+
 //access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibWF1cmVlbmxpbmtlIiwiYSI6IkRKWWtHcHMifQ.QcjqScXhjOanYPFAvnLZaA';
 
@@ -36,3 +54,4 @@ var markerLayer = L.mapbox.featureLayer()
          map.fitBounds(markerLayer.getBounds(), { padding: [5, 5] });
     })
     .addTo(map);
+    showLegend();
