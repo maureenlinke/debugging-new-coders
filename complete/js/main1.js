@@ -1,10 +1,24 @@
 $(function () {
-    $('#container').highcharts({
+     Highcharts.setOptions({
+        colors: ['#696C71', '#9fd8d2'],
+        chart: {
+        style: {
+                fontWeight: 500,
+                fontSize: '11px',
+                fontFamily: 'Helvetica',
+                color: '#a2a5a1',
+
+            }
+        }
+
+    });
+    $('#chart-container').highcharts({
         chart: {
             type: 'bar'
         }, 
+
         title: {
-            text: 'Top ten schools with highest percentage of obese, overweight children'
+            text: 'Top ten schools or districts with highest percentage of obese, overweight children'
         },
          credits: {
             enabled: false
@@ -19,7 +33,7 @@ $(function () {
                         'Brentwood Union Free School',
                         'Salmon River Central School',
                         'Pulaski Central School',
-                        'Brasher Falls Cent Sch Dist',
+                        'Brasher Falls Central School District',
                         'Ellenville Central School']
         },
         yAxis: {
@@ -34,7 +48,7 @@ $(function () {
             }
         },
         tooltip: {
-            headerFormat: '<span style="font-size:12px">{point.key}</span><table>',
+            headerFormat: '<span style="font-size:12px; font-weight: bold;">{point.key}</span><table>',
             pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
                 '<td style="padding:0"><b>{point.y:.f} %</b></td></tr>',
             footerFormat: '</table>',
@@ -55,6 +69,8 @@ $(function () {
         }, {
             name: 'Percent obese',
             data: [35,46,38,31,43,32,31,25,29,23]
+
+
 
         }]
     });

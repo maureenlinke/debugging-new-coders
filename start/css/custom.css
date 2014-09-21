@@ -1,0 +1,28 @@
+body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;line-height:1.428571429;color:#696c71;background-color:white}
+
+
+#chart-container {
+height: 400px; 
+margin: 0 auto;
+width:100%
+}
+
+.map {
+border-top: 1px solid #a2a5a1;
+border-bottom: 1px solid #a2a5a1;
+width: 100%;
+height: 450px;
+position:relative;
+}
+
+.nav {
+margin-top: 10px;
+}
+
+.remove-bottom {
+margin-bottom: 10px;
+}
+
+.dataTables_length {
+display:none;
+}
