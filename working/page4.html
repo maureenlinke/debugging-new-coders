@@ -13,8 +13,11 @@
     <meta name="author" content="">
 
     <!-- CSS-->
+     <link href=' //cdn.datatables.net/1.10.2/css/jquery.dataTables.css' rel='stylesheet' />
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/custom.css">
+
+   
 </head>
 
 <body>
@@ -35,11 +38,28 @@
         </div>
         <div class="two-column">
             <h3>Working with Datatables.js</h3>
-            <p>The Student Weight Status Category Reporting System (SWSCR) collects weight status category data (underweight, healthy weight, overweight or obese, based on BMI-for-age percentile). The dataset includes separate estimates of the percent of students overweight, obese and overweight or obese for all reportable grades within counties and/or regions in New York.</p>
         </div>
+
+        <table id="schools-table" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Area name</th>
+                <th>Region</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+    </table>
     </div>
     <!-- container -->
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>  
+<script type="text/javascript" src="data/table.js"></script>
+<script type="text/javascript" src="js/main4.js"></script>
 
     <!-- End Document
 ================================================== -->
