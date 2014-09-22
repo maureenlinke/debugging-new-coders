@@ -2,14 +2,14 @@ $legend =     $('#map-legend');
 
 function showLegend() {
 
-    var cols =   [ "#409e94","#7e7e7e" ];
+    var colors =   [ "#409e94","#7e7e7e" ];
     var txt =    [
     '40% or more',
     '39% or fewer' ];
     var htm = '<h5>Pct. of obese children</h5><ul>';
     var cls = 'dots';
-    for ( var i = 0; i < cols.length; i++ ) {
-        htm += '<li id="leg' + i + '" class="legends"><span class="' + cls + '" style="background:' + cols[i] + '"></span>' + txt[i] + '</li>';
+    for ( var i = 0; i < colors.length; i++ ) {
+        htm += '<li id="leg' + i + '" class="legends"><span class="' + cls + '" style="background:' + colors[i] + '"></span>' + txt[i] + '</li>';
     }
     htm += '</ul>';
     $legend.html(htm);

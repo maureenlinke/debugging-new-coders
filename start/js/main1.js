@@ -45,7 +45,7 @@ $(function () {
                 formatter: function () {
                     return this.value + '%';
                 }
-            }
+            
         },
         tooltip: {
             headerFormat: '<span style="font-size:12px; font-weight: bold;">{point.key}</span><table>',

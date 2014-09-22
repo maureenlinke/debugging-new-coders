@@ -1,8 +1,14 @@
 $(document).ready(function() {
-    $('#schools-table').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>' );
  
     $('#schools-table').dataTable( {
         "data": dataset,
+         "order": [[ 1, "asc" ]],
+        ///creating highlighting function that will highlight all values greater than 15
+        "createdRow": function ( row, data, index ) {
+            if ( data[6].replace(/[\%,]/g, '') * 1 > 15 ) {
+                $('td', row).eq(6).addClass('highlight');
+            }
+        },
         "columns": [
             { "title": "County" },
             { "title": "Area name" },
@@ -14,3 +20,4 @@ $(document).ready(function() {
         ]
     } );   
 } );
+        

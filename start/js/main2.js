@@ -1,3 +1,5 @@
+//create legend
+
 $legend =     $('#legend');
 
 function showLegend() {
@@ -27,8 +29,6 @@ var map = L.mapbox.map('map', 'examples.map-20v6611k').setView([42.5,-73.04], 20
 var markerLayer = L.mapbox.featureLayer()
     .loadURL('data/map.geojson')
     .addTo(map);
-
-
 
 
  markerLayer.on('ready', function(layer) {
