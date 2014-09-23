@@ -6,7 +6,7 @@ $(document).ready(function() {
         ///creating highlighting function that will highlight all values greater than 15
         "createdRow": function ( row, data, index ) {
             if ( data[6].replace(/[\%,]/g, '') * 1 > 15 ) {
-                $('table', row).eq(6).addClass('highlight');
+                $('table', row).eq(5).addClass('highlight');
             }
         },
         "columns": [
