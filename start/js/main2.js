@@ -37,12 +37,12 @@ markerLayer.on('ready', function(layer) {
     //Customizing marker styles based on an attribute.
 
     this.eachLayer(function(marker) {
-        if (marker.toGeoJSON().properties.pct_over_obese =! 45) {
+        if (marker.toGeoJSON().properties.pct_obese = 45) {
             marker.setIcon(L.mapbox.marker.icon({
                 'marker-color': '#409e94',
                 'marker-size': 'medium'
             }));
-        } else  (marker.toGeoJSON().properties.pct_over_obese > 35) {
+        } else  (marker.toGeoJSON().properties.pct_obese > 35) {
             marker.setIcon(L.mapbox.marker.icon({
                 'marker-color': '#9FD8D2',
                 'marker-size': 'medium'
