@@ -5,8 +5,8 @@ function showLegend() {
     var colors = ["#409e94", '#9FD8D2', '#7e7e7e'];
     var txt = [
         '45% or more',
-        '44 - 38%',
-        '39% or fewer'
+        '44 - 35%',
+        '34% or fewer'
     ];
     var htm = '<h5>Pct. of obese children</h5><ul>';
     var cls = 'dots';
