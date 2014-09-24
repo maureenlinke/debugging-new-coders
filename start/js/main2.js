@@ -51,7 +51,7 @@ markerLayer.on('ready', function(layer) {
             marker.setIcon(L.mapbox.marker.icon({
                 'marker-color': '#7e7e7e',
                 'marker-size': 'medium'
-            }));
+            ));
         }
         // Bind a popup to each icon based on the same properties
         marker.bindPopup(marker.toGeoJSON().properties.school + '</br>' +
