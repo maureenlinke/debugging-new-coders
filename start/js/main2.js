@@ -1,18 +1,18 @@
 $legend = $('#map-legend');
+var colors = ["#409e94", '#9FD8D2', '#7e7e7e'];
 
 function showLegend() {
-
 
     var txt = [
         '45% or more',
         '44 - 38%',
         '39% or fewer'
     ];
+    var colors = 'dots';
     var htm = '<h5>Pct. of obese children</h5><ul>';
-    var cls = 'dots';
+
     for (var i = 0; i < colors.length; i++) {
-        htm += '<li id="leg' + i + '" class="legends"><span class="' + cls + '" style="background:' + colors[i] + '"></span>' + txt[i] + '</li>';
-        var colors = ["#409e94", '#9FD8D2', '#7e7e7e'];
+        htm += '<li id="leg' + i + '" class="legends"><span class="' + colors + '" style="background:' + colors[i] + '"></span>' + txt[i] + '</li>';
     }
     htm += '</ul>';
     $map-legend.html(htm);
@@ -37,12 +37,12 @@ markerLayer.on('ready', function(layer) {
     //Customizing marker styles based on an attribute.
 
     this.eachLayer(function(marker) {
-        if (marker.toGeoJSON().properties.pct_obese = 45) {
+        if (marker.toGeoJSON().properties.pct_over_obese = 45) {
             marker.setIcon(L.mapbox.marker.icon({
                 'marker-color': '#409e94',
                 'marker-size': 'medium'
             }));
-        } else  (marker.toGeoJSON().properties.pct_obese > 35) {
+        } else  (marker.toGeoJSON().properties.pct_over_obese > 35) {
             marker.setIcon(L.mapbox.marker.icon({
                 'marker-color': '#9FD8D2',
                 'marker-size': 'medium'
