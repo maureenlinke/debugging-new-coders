@@ -29,6 +29,6 @@ ONA workshop  on solving coding issues and avoiding bad code in the first place.
 1. Download file for installation wizard.
 2. Follow the prompts to the server information screen. For each of the 2 fields enter 'localhost' and for the email add yourname@email.com. These fields do not matter, but must be filled out completely.
 3. Radio button should be selected "for All Users, on Port 800", and "Typical" install type.
-4. Next, browse to a working directory that you would like to save your project and create a new folder for your web files. Example path: C:\development-folder
-5.   Complete the installation process and dowload the GitHub repository, unzip and drop the files into your newly created folder.
-6.   Open your web browser and type in localhost/(your-file-folder-name)/debugging-new-coders. 
+4. Next, save the Apache Files in your C:/Program files directory.
+5.   Complete the installation process and dowload the GitHub repository, unzip and drop the files into the htcdocs folder of your C:/program files/apache
+6.   Open your web browser and type in localhost/debugging-new-coders/start/. 
