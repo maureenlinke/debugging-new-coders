@@ -54,6 +54,7 @@ td.highlight {
     font: #333'"Georgia", "Times New Roman", serif' 700;
     margin: 1% 0 3%;
     font-size: 1em;
+    font-weight: bold;
 }
 .legend ul {
     list-style: none;

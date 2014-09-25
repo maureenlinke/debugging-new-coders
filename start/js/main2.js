@@ -1,4 +1,4 @@
-$legend = $('.map-legend');
+$legend = $('#map-legend');
 
 function showLegend() {
 
