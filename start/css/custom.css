@@ -29,6 +29,10 @@ body {
 .dataTables_length {
     display: none;
 }
+td.highlight {
+    font-weight: bold;
+    color: #398d84;
+}
 /*  LEGEND  */
 
 #map-legend {
