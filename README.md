@@ -8,11 +8,11 @@ ONA workshop  on solving coding issues and avoiding bad code in the first place.
 * Maureen Linke, AP
    **[@maureenlinke](http://www.twitter.com/maureenlinke)**
 
- ## Outline of the session
-**[https://docs.google.com/document/d/1dhs7u3XIbSVzG4UI5NQXrYKmDvdjylPnKo5hM8uux7M/pub]**
+ *Outline of the session
+**https://docs.google.com/document/d/1dhs7u3XIbSVzG4UI5NQXrYKmDvdjylPnKo5hM8uux7M/pub**
 
-## Walk through of debugging the start folder
-**[https://docs.google.com/document/d/1swEmFC3DdL-uy-7_6S5CVsHebTDU1WoU-23F2Z5iQak/pub]**
+*Walk through of debugging the start folder
+**https://docs.google.com/document/d/1swEmFC3DdL-uy-7_6S5CVsHebTDU1WoU-23F2Z5iQak/pub**
 
 ##Downloads
 * A text editor. We recommend:
