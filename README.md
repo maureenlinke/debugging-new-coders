@@ -32,3 +32,6 @@ ONA workshop  on solving coding issues and avoiding bad code in the first place.
 4. Next, save the Apache Files in your C:/Program files directory.
 5.   Complete the installation process and dowload the GitHub repository, unzip and drop the files into the htcdocs folder of your C:/program files/apache
 6.   Open your web browser and type in localhost/debugging-new-coders/start/. 
+
+### Principles of debugging
+http://prezi.com/anatunvtf07u/debugging-for-new-coders/
