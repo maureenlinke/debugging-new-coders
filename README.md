@@ -12,6 +12,8 @@ ONA workshop  on solving coding issues and avoiding bad code in the first place.
 * **[Outline of the session and debugging principles](https://docs.google.com/document/d/1dhs7u3XIbSVzG4UI5NQXrYKmDvdjylPnKo5hM8uux7M/pub)**
 
 * **[Walk-through solutions to bugs in start folder](https://docs.google.com/document/d/1swEmFC3DdL-uy-7_6S5CVsHebTDU1WoU-23F2Z5iQak/pub)**
+* **[Prezi presentation](http://prezi.com/anatunvtf07u/debugging-for-new-coders/)**
+
 
 ##Downloads
 * A text editor. We recommend:
@@ -37,5 +39,4 @@ ONA workshop  on solving coding issues and avoiding bad code in the first place.
 5.   Complete the installation process and dowload the GitHub repository, unzip and drop the files into the htcdocs folder of your C:/program files/apache
 6.   Open your web browser and type in localhost/debugging-new-coders/start/. 
 
-### Principles of debugging
-http://prezi.com/anatunvtf07u/debugging-for-new-coders/
+
